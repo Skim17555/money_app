@@ -99,10 +99,6 @@ Do the same for the other 'build.gradle' file that is inside the 'android' folde
 
 # The file 'index.html' must include the following
 
-Inside the 'head' must include to allow google_sign_in for web app:
-
-      <meta name="google-signin-client_id" content="184015195776-76785j3f2cjcg5032qgleam78tul381s.apps.googleusercontent.com">
-
 Inside the end of 'body' must include the following scripts for firebase/firestore:
 
     <script src="https://apis.google.com/js/platform.js" async defer></script>
