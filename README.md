@@ -32,6 +32,7 @@ If it still does not work, go to 'settings.json' file and add the following conf
 # Running integration test to test the app's UI and performance
 
 Run the command: 
+
     flutter drive --driver integration_test/driver.dart --target integration_test/app_test.dart
 
 Testing data should be shown under the 'integration_response_data.json' file
